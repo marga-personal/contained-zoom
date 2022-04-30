@@ -1,7 +1,0 @@
-[Default Applications]
-x-scheme-handler/zoommtg=contained-zoom.desktop
-x-scheme-handler/zoomus=contained-zoom.desktop
-x-scheme-handler/tel=contained-zoom.desktop
-x-scheme-handler/callto=contained-zoom.desktop
-x-scheme-handler/zoomphonecall=contained-zoom.desktop
-application/x-zoom=contained-zoom.desktop
