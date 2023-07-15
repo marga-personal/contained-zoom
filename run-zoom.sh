@@ -24,6 +24,7 @@ if docker container inspect ${CONTAINER_NAME} 2>/dev/null >/dev/null; then
     docker container exec ${CONTAINER_NAME} zoom "$@"
 else
     docker run --rm \
+	--cap-add SYS_ADMIN \
 	--net=host \
 	--name ${CONTAINER_NAME} \
 	-e DISPLAY=${DISPLAY} \
