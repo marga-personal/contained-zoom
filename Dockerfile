@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get install -y curl sudo && \
     curl -L https://zoom.us/client/latest/zoom_amd64.deb > /tmp/zoom.deb && \
     apt-get install -y --no-install-recommends /tmp/zoom.deb && \
-    apt-get install -y --no-install-recommends libnss3 pulseaudio-utils libasound2 && \
+    apt-get install -y --no-install-recommends libnss3 pulseaudio-utils libasound2 libgl1 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
